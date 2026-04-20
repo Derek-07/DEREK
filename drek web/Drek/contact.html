@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us — DREK Digital Agency</title>
+  <meta name="description" content="Get in touch with DREK. Call, WhatsApp, or email us. Located in Agra, India. We are ready to help with your digital project.">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="assets/logo/my logo.png" type="image/png">
+</head>
+<body>
+  <div class="loader" id="loader"><div class="loader__particles"><div class="loader__particle"></div><div class="loader__particle"></div><div class="loader__particle"></div><div class="loader__particle"></div><div class="loader__particle"></div><div class="loader__particle"></div></div><div class="loader__inner"><div class="loader__ring"><img src="assets/logo/my logo.png" alt="DREK" class="loader__logo-img"></div><div class="loader__logo">DREK</div><div class="loader__bar"><div class="loader__progress"></div></div><div class="loader__percent">Loading...</div></div></div><div class="cursor-glow" id="cursor-glow"></div>
+
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="navbar__logo"><img src="assets/logo/my logo.png" alt="DREK Logo"><span>DREK</span></a>
+    <div class="navbar__links"><a href="index.html">Home</a><a href="about.html">About Us</a><a href="services.html">Services</a><a href="portfolio.html">Portfolio</a><a href="courses.html">Courses</a><a href="contact.html" class="active">Contact</a></div>
+    <div class="navbar__right">
+      <div class="navbar__location"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Agra, India</div>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode"><svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg><svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg></button>
+      <button class="menu-btn" id="menu-btn">Menu</button>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <span class="page-hero__label reveal">Contact</span>
+    <h1 class="page-hero__title reveal"><span class="light">Get in </span><span class="bold">touch</span><br><span class="muted">We would love to hear from you</span></h1>
+  </section>
+
+  <!-- CONTACT METHODS -->
+  <section class="content-section">
+    <div class="contact-methods-grid">
+      <div class="contact-method-card reveal">
+        <div class="contact-method-icon">📧</div>
+        <h3>Email Us</h3>
+        <p>Send us an email any time. We usually reply within 24 hours.</p>
+        <a href="mailto:info@derekworld.tech" class="contact-method-link">info@derekworld.tech</a>
+      </div>
+      <div class="contact-method-card reveal reveal-delay-1">
+        <div class="contact-method-icon">📞</div>
+        <h3>Call Us</h3>
+        <p>Give us a call during business hours. We are always happy to talk.</p>
+        <a href="tel:+918630660422" class="contact-method-link">+91 8630660422</a>
+      </div>
+      <div class="contact-method-card reveal reveal-delay-2">
+        <div class="contact-method-icon">💬</div>
+        <h3>WhatsApp</h3>
+        <p>Send a message on WhatsApp for a quick response. Available all day.</p>
+        <a href="https://wa.me/918630660422" target="_blank" class="contact-method-link">Chat on WhatsApp</a>
+      </div>
+      <div class="contact-method-card reveal reveal-delay-3">
+        <div class="contact-method-icon">📍</div>
+        <h3>Visit Us</h3>
+        <p>Our office is located in Agra, India. Feel free to visit us in person.</p>
+        <span class="contact-method-link">Agra, Uttar Pradesh, India</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT FORM -->
+  <section class="content-section alt-bg">
+    <h2 class="section-title reveal"><span class="light">Send us </span><span class="bold">a message</span></h2>
+    <form class="contact-full-form reveal">
+      <div class="form-row">
+        <div class="form-group"><label for="cf-name">Your Name</label><input type="text" id="cf-name" placeholder="Enter your full name"></div>
+        <div class="form-group"><label for="cf-email">Email Address</label><input type="email" id="cf-email" placeholder="Enter your email"></div>
+      </div>
+      <div class="form-row">
+        <div class="form-group"><label for="cf-phone">Phone Number</label><input type="tel" id="cf-phone" placeholder="Enter your phone number"></div>
+        <div class="form-group">
+          <label for="cf-service">What do you need?</label>
+          <select id="cf-service">
+            <option value="">Select a service</option>
+            <option>Web Development</option>
+            <option>Graphic Design</option>
+            <option>Video Editing</option>
+            <option>UI/UX Design</option>
+            <option>3D Modeling</option>
+            <option>Training / Course</option>
+            <option>Other</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group full-width"><label for="cf-message">Your Message</label><textarea id="cf-message" rows="5" placeholder="Tell us about your project or what you need help with..."></textarea></div>
+      <div style="text-align:center"><button type="submit" class="btn-primary">Send Message →</button></div>
+    </form>
+  </section>
+
+  <!-- SOCIAL LINKS -->
+  <section class="content-section">
+    <h2 class="section-title reveal"><span class="light">Follow us </span><span class="bold">online</span></h2>
+    <div class="social-links-bar reveal" style="grid-template-columns:repeat(4,1fr)">
+      <a href="https://x.com/DREK_WORLD" target="_blank" class="social-link-card"><span class="social-link-name">X / Twitter</span><span class="social-link-handle">@DREK_WORLD</span></a>
+      <a href="https://discord.gg/JSZvmdsbsR" target="_blank" class="social-link-card"><span class="social-link-name">Discord</span><span class="social-link-handle">Join Our Server</span></a>
+      <a href="https://wa.me/918630660422" target="_blank" class="social-link-card"><span class="social-link-name">WhatsApp</span><span class="social-link-handle">+91 8630660422</span></a>
+      <a href="https://instagram.com" target="_blank" class="social-link-card"><span class="social-link-name">Instagram</span><span class="social-link-handle">@drek_world</span></a>
+    </div>
+  </section>
+
+  <footer class="footer"><div class="footer__brand reveal">DREK</div><div class="footer__bottom"><p>&copy; 2025 DREK. All rights reserved.</p><div class="footer-logo"><img src="assets/logo/my logo.png" alt="DREK"></div><a href="#">Privacy Policy</a></div></footer>
+  <div class="menu-overlay" id="menu-overlay"><button class="menu-overlay__close" id="menu-close">Close ✕</button><div class="menu-overlay__left"><h2 class="menu-overlay__title">Menu</h2><div><div class="menu-overlay__locations"><div><h4>Agra, India</h4><p>Main Office</p></div></div><div class="menu-overlay__email">info@derekworld.tech</div><div class="menu-overlay__phone"><a href="tel:+918630660422">+91 8630660422</a></div></div></div><div class="menu-overlay__right"><div class="menu-overlay__links"><a href="about.html" class="menu-overlay__link">About Us <span class="arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" width="18" height="18"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span></a><a href="services.html" class="menu-overlay__link">Services <span class="arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" width="18" height="18"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span></a><a href="portfolio.html" class="menu-overlay__link">Portfolio <span class="arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" width="18" height="18"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span></a><a href="team.html" class="menu-overlay__link">Our Team <span class="arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" width="18" height="18"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span></a><a href="courses.html" class="menu-overlay__link">Courses <span class="arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" width="18" height="18"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span></a><a href="reviews.html" class="menu-overlay__link">Reviews <span class="arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" width="18" height="18"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span></a><a href="contact.html" class="menu-overlay__link">Contact Us <span class="arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" width="18" height="18"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span></a></div></div></div>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
